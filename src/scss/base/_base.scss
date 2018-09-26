@@ -1,0 +1,29 @@
+@import 'reset-css';
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #000
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+a {
+    color: #333
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
